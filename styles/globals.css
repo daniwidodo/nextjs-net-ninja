@@ -8,10 +8,10 @@ body {
 
 a {
   color: inherit;
-  margin-right: 5px;
   text-decoration: none;
   border: solid 1px black;
   padding: 5px;
+  margin: 2px;
 }
 
 * {
@@ -23,13 +23,13 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  
+  padding: 0 20px 0 20px;
 }
 
 .menu-bar{
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  justify-content: space-between;
   /* border: solid 1px red; */
 }
 
