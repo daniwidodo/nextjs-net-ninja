@@ -4,6 +4,10 @@ const Navbar = () => {
     <nav>
       <div className="logo">
         <h1>Navigation</h1>
+
+        <Link href="/">
+          <a>home</a>
+        </Link>
         <Link href="/about">
           <a>about</a>
         </Link>
