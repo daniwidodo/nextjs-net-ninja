@@ -1,12 +1,12 @@
+import styles from "../styles/Footer.module.css";
+
 const Footer = () => {
-    return ( 
-        <h4 className="footer">
-            footer
-        </h4>
-     );
+  return (
+    <div className="footer">
+      <p>footer</p>
+      
+    </div>
+  )
 }
- 
+
 export default Footer;
-<h4 className="footer">
-    footer
-</h4>
