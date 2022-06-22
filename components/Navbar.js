@@ -3,11 +3,11 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="navigation">
       <div className="logo">
         <Image src={"/vercel.svg"} width={100} height={80} alt="fuck it" />
-        <h1>Navigation</h1>
-
+        
+        <div className="menu-bar">
         <Link href="/">
           <a>home</a>
         </Link>
@@ -17,6 +17,8 @@ const Navbar = () => {
         <Link href="/ninja/ninjas">
           <a>ninjas</a>
         </Link>
+        </div>
+       
       </div>
     </nav>
   );

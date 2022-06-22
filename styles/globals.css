@@ -8,11 +8,29 @@ body {
 
 a {
   color: inherit;
+  margin-right: 5px;
   text-decoration: none;
+  border: solid 1px black;
+  padding: 5px;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.menu-bar{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* border: solid 1px red; */
 }
 
 .footer{
